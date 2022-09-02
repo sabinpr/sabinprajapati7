@@ -114,27 +114,27 @@ a {
   }
   .banner-content {
     width: 48%;
-    padding-top: 132px;
-    padding-left: 76px;
+    padding-top: 9.167vw;
+    padding-left: 5.278vw;
   }
   .banner-content h1 .para1 {
-    font-size: 56px;
-    line-height: 81px;
+    font-size: 3.889vw;
+    line-height: 5.625vw;
   }
   .banner-content h1 .para2 {
-    font-size: 56px;
-    line-height: 81px;
+    font-size: 3.889vw;
+    line-height: 5.625vw;
   }
   .banner-content h1 .para3 {
-    font-size: 48px;
-    line-height: 69px;
+    font-size: 3.333vw;
+    line-height: 4.792vw;
   }
   .contact-link{
-    margin-top: 60px;
+    margin-top: 4.167vw;
   }
   .contact-link .hire-me{
     width: 50%;
-    margin-right: 20px;
+    margin-right: 1.389vw;
   }
   .contact-link .my-portfolio{
     width: 50%;
@@ -143,6 +143,32 @@ a {
     display: flex;
     justify-content: space-between;
   }
+}
+@media (min-width: 1440px){
+    .banner-content {
+        width: 48%;
+        padding-top: 132px;
+        padding-left: 76px;
+      }
+      .banner-content h1 .para1 {
+        font-size: 56px;
+        line-height: 81px;
+      }
+      .banner-content h1 .para2 {
+        font-size: 56px;
+        line-height: 81px;
+      }
+      .banner-content h1 .para3 {
+        font-size: 48px;
+        line-height: 69px;
+      }
+      .contact-link{
+        margin-top: 60px;
+      }
+      .contact-link .hire-me{
+        width: 50%;
+        margin-right: 20px;
+      }
 }
 @media (max-width: 420px){
     .bxl-telegram {
