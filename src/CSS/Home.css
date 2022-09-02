@@ -80,12 +80,12 @@ a {
 .bxl-telegram {
   padding-right: 20px;
 }
-@media (min-width: 821px) {
+@media (min-width: 720px) {
   .portfolio-container {
     max-width: 1440px;
   }
   .content-main {
-    padding: 0 96px;
+    padding: 0 6.667vw;
   }
   .navbar {
     display: block;
@@ -159,6 +159,9 @@ a {
   }
 }
 @media (min-width: 1440px) {
+  .content-main {
+    padding: 0 96px;
+  }
   .banner-content {
     padding-top: 132px;
     padding-left: 76px;
