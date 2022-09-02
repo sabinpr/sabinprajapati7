@@ -129,49 +129,75 @@ a {
     font-size: 3.333vw;
     line-height: 4.792vw;
   }
-  .contact-link{
+  .contact-link {
     margin-top: 4.167vw;
   }
-  .contact-link .hire-me{
+  .contact-link .hire-me {
     width: 50%;
     margin-right: 1.389vw;
   }
-  .contact-link .my-portfolio{
+  .contact-link .my-portfolio {
     width: 50%;
   }
-  .link-flex{
+  .link-flex {
     display: flex;
     justify-content: space-between;
   }
+  .contact-link a {
+    border-radius: 0.694vw;
+    height: 4.167vw;
+    margin-bottom: 1.389vw;
+    padding: 0 2.153vw;
+    font-size: 1.389vw;
+    line-height: 2.014vw;
+  }
+  .contact-link .hire-me {
+    box-shadow: 0px 0px 1.042vw rgba(121, 150, 252, 0.15);
+  }
+  .bxl-telegram {
+    padding-right: 1.389vw;
+  }
 }
-@media (min-width: 1440px){
-    .banner-content {
-        width: 48%;
-        padding-top: 132px;
-        padding-left: 76px;
-      }
-      .banner-content h1 .para1 {
-        font-size: 56px;
-        line-height: 81px;
-      }
-      .banner-content h1 .para2 {
-        font-size: 56px;
-        line-height: 81px;
-      }
-      .banner-content h1 .para3 {
-        font-size: 48px;
-        line-height: 69px;
-      }
-      .contact-link{
-        margin-top: 60px;
-      }
-      .contact-link .hire-me{
-        width: 50%;
-        margin-right: 20px;
-      }
+@media (min-width: 1440px) {
+  .banner-content {
+    padding-top: 132px;
+    padding-left: 76px;
+  }
+  .banner-content h1 .para1 {
+    font-size: 56px;
+    line-height: 81px;
+  }
+  .banner-content h1 .para2 {
+    font-size: 56px;
+    line-height: 81px;
+  }
+  .banner-content h1 .para3 {
+    font-size: 48px;
+    line-height: 69px;
+  }
+  .contact-link {
+    margin-top: 60px;
+  }
+  .contact-link .hire-me {
+    margin-right: 20px;
+  }
+  .contact-link a {
+    border-radius: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 0 31px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .contact-link .hire-me {
+    box-shadow: 0px 0px 15px rgba(121, 150, 252, 0.15);
+  }
+  .bxl-telegram {
+    padding-right: 20px;
+  }
 }
-@media (max-width: 420px){
-    .bxl-telegram {
-        display: none;
-      }
+@media (max-width: 420px) {
+  .bxl-telegram {
+    display: none;
+  }
 }
