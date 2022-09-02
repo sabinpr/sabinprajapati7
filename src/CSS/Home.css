@@ -89,8 +89,8 @@ a {
   }
   .navbar {
     display: block;
-    padding-top: 26px;
-    padding-bottom: 34px;
+    padding-top: 1.806vw;
+    padding-bottom: 2.361vw;
   }
   .navlist {
     list-style: none;
@@ -98,13 +98,13 @@ a {
     justify-content: center;
   }
   .list-content {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 2.083vw;
+    padding-right: 2.083vw;
     font-family: "Jost";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 1.389vw;
+    line-height: 2.014vw;
   }
   .banner {
     display: flex;
@@ -161,6 +161,16 @@ a {
 @media (min-width: 1440px) {
   .content-main {
     padding: 0 96px;
+  }
+  .navbar {
+    padding-top: 26px;
+    padding-bottom: 34px;
+  }
+  .list-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 29px;
   }
   .banner-content {
     padding-top: 132px;
