@@ -1,0 +1,9 @@
+
+.portfolio-container{
+    position: relative;
+    background: #2D2D2D;
+    color: #FFFFFF;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
