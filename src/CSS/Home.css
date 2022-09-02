@@ -72,10 +72,14 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
+  justify-content: space-between;
 }
 .contact-link .hire-me {
   background: #7996fc;
   box-shadow: 0px 0px 15px rgba(121, 150, 252, 0.15);
+}
+.arrow-link {
+  font-size: 40px;
 }
 .bxl-telegram {
   padding-right: 20px;
@@ -157,6 +161,9 @@ a {
   .bxl-telegram {
     padding-right: 1.389vw;
   }
+  .arrow-link {
+    font-size: 2.778vw;
+  }
 }
 @media (min-width: 1440px) {
   .content-main {
@@ -208,9 +215,15 @@ a {
   .bxl-telegram {
     padding-right: 20px;
   }
+  .arrow-link {
+    font-size: 40px;
+  }
 }
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   .bxl-telegram {
+    display: none;
+  }
+  .my-telegram .arrow-link {
     display: none;
   }
 }

@@ -1,0 +1,46 @@
+.quotes {
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+.quotes h2 {
+  padding-bottom: 15px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  color: #c9c9c9;
+}
+.quotes p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+@media (min-width: 720px) {
+  .quotes {
+    padding: 1.111vw 1.806vw 8.333vw 1.806vw;
+  }
+  .quotes h2 {
+    padding-bottom: 1.389vw;
+    font-size: 2.500vw;
+    line-height: 3.611vw;
+  }
+  .quotes p {
+    font-size: 2.917vw;
+    line-height: 4.236vw;
+  }
+}
+@media (min-width: 1440px) {
+  .quotes {
+    padding: 16px 26px 120px 26px;
+  }
+  .quotes h2 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .quotes p {
+    font-size: 42px;
+    line-height: 61px;
+  }
+}
