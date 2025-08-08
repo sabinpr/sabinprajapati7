@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sabinprajapati7/static/css/main.fcd812cb.css",
+    "main.js": "/sabinprajapati7/static/js/main.661c5a62.js",
+    "static/media/Banner_svg.svg": "/sabinprajapati7/static/media/Banner_svg.f00e6da702214054946f1faccea0828f.svg",
+    "index.html": "/sabinprajapati7/index.html",
+    "main.fcd812cb.css.map": "/sabinprajapati7/static/css/main.fcd812cb.css.map",
+    "main.661c5a62.js.map": "/sabinprajapati7/static/js/main.661c5a62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcd812cb.css",
+    "static/js/main.661c5a62.js"
+  ]
+}
